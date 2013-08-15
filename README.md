@@ -6,7 +6,7 @@ A simple little wrapper over - [http://www.webservicex.net/WS/WSDetails.aspx?WSI
 
 Add this line to your application's Gemfile:
 
-    gem 'weatherman'
+    gem 'weatherman-rb'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install weatherman
+    $ gem install weatherman-rb
 
 ## Usage
 
