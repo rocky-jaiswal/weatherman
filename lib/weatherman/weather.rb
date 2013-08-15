@@ -1,4 +1,5 @@
 module Weatherman
+
   class Weather
 
     attr_reader :location, :time, :wind, :visibility, :temperature, :pressure, :status
@@ -14,4 +15,5 @@ module Weatherman
     end
 
   end
+  
 end
