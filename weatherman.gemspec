@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'weatherman/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "weatherman-rb"
+  spec.name          = "weatherman"
   spec.version       = Weatherman::VERSION
   spec.authors       = ["Rocky Jaiswal"]
   spec.email         = ["rocky.jaiswal@gmail.com"]
