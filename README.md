@@ -20,16 +20,20 @@ Or install it yourself as:
 
 1. To get the list of available cities, you can do -
 
+    
     Weatherman.get_cities_by_country("Poland")
 
-This will return an array of Cities. Each City has two fields -
+This will return an array of Cities. Each "City" has two fields -
 
 - city_name 
 - country_name
 
+
 2. To get the weather, you can do -
 
+
     Weatherman.get_weather("Jodhpur", "India")
+
 
 This will retrun a "Weather" object, which has a few fields -
 
