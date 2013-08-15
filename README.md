@@ -6,15 +6,11 @@ A simple little wrapper over - [http://www.webservicex.net/WS/WSDetails.aspx?WSI
 
 Add this line to your application's Gemfile:
 
-    gem 'weatherman'
+    gem 'weatherman', :git => 'git://github.com/rocky-jaiswal/weatherman.git'
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install weatherman
 
 ## Usage
 
