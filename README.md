@@ -32,7 +32,7 @@ This will return an array of Cities. Each "City" has two fields -
 
     Weatherman.get_weather("Jodhpur", "India")
 
-This will retrun a "Weather" object, which has a few fields -
+This will return a "Weather" object, which has a few fields -
 
 - location
 - time
