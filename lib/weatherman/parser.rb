@@ -32,8 +32,8 @@ module Weatherman
     end
 
     def build_weather(link)
-      paths = {location: "//Location", time: "//Time", wind: "//Wind", visibility: "//Visibility", temperature: "//Temperature", pressure: "//Pressure", status: "//Status"}
       values = {}
+      paths = {location: "//Location", time: "//Time", wind: "//Wind", visibility: "//Visibility", temperature: "//Temperature", pressure: "//Pressure", status: "//Status"}
       paths.each do |key, val|
         values[key] = link.xpath(paths[key]).first.content.strip if link.xpath(paths[key]).first
       end
