@@ -1,5 +1,7 @@
 # Weatherman
 
+[![Code Climate](https://codeclimate.com/repos/520cc50e56b102417403e57e/badges/1a035c69c9fd5d617e5b/gpa.png)](https://codeclimate.com/repos/520cc50e56b102417403e57e/feed)
+
 A simple little wrapper over - [http://www.webservicex.net/WS/WSDetails.aspx?WSID=56&CATID=12](http://www.webservicex.net/WS/WSDetails.aspx?WSID=56&CATID=12) Weather SOAP Service
 
 ## Installation
