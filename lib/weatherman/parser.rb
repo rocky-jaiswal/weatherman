@@ -32,14 +32,12 @@ module Weatherman
     end
 
     def build_weather(link)
-      location = link.xpath("//Location").first.content.strip
-      time = link.xpath("//Time").first.content.strip
-      wind = link.xpath("//Wind").first.content.strip
-      visibility = link.xpath("//Visibility").first.content.strip
-      temperature = link.xpath("//Temperature").first.content.strip
-      pressure = link.xpath("//Pressure").first.content.strip
-      status = link.xpath("//Status").first.content.strip
-      Weatherman::Weather.new(location, time, wind, visibility, temperature, pressure, status)
+      paths = {location: "//Location", time: "//Time", wind: "//Wind", visibility: "//Visibility", temperature: "//Temperature", pressure: "//Pressure", status: "//Status"}
+      values = {location: "", time: "", wind: "", visibility: "", temperature: "", pressure: "", status: ""}
+      paths.each do |key, val|
+        values[key] = link.xpath(paths[key]).first.content.strip if link.xpath(paths[key]).first
+      end
+      Weatherman::Weather.new(values)
     end
 
   end

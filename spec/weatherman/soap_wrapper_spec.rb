@@ -32,6 +32,11 @@ describe Weatherman do
       weather.status.should == "Success"
     end
 
+    it "should get weather for Jaipur India" do
+      weather = @soap_wrapper.get_weather("Jaipur", "India")
+      weather.status.should == "Success"
+    end
+
     it "should not crash for bad data" do
       weather = @soap_wrapper.get_weather("Jakarta", "India")
       weather.should be_nil
