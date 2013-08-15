@@ -1,0 +1,1 @@
+class WeathermanException < StandardError; end
