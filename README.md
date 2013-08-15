@@ -1,6 +1,6 @@
 # Weatherman
 
-[![Code Climate](https://codeclimate.com/repos/520cc50e56b102417403e57e/badges/1a035c69c9fd5d617e5b/gpa.png)](https://codeclimate.com/repos/520cc50e56b102417403e57e/feed)
+[![Code Climate](https://codeclimate.com/repos/520d23bb56b102418105172f/badges/c0a9e6fbf015ae1e587d/gpa.png)](https://codeclimate.com/repos/520d23bb56b102418105172f/feed)
 
 [![Build Status](https://travis-ci.org/rocky-jaiswal/weatherman.png?branch=master)](https://travis-ci.org/rocky-jaiswal/weatherman)
 
